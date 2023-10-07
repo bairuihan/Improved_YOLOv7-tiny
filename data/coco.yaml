@@ -1,0 +1,18 @@
+# COCO 2017 dataset http://cocodataset.org
+
+         
+         # COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optiona#download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /D/brh/duibi/shuju_nwd/images/train # 118287 images
+val: /D/brh/duibi/shuju_nwd/images/val # 5000 images
+test: /D/brh/duibi/shuju_nwd/images/val   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 10 # number of classes
+names : ['Aircraft','ships','storage_tanks','baseball_fields','tennis_courts','basketball_courts','surface_tracks','ports','bridges','vehicles']
+
+#nc: 4 # number of classes
+#names : ['a','b','c','d']

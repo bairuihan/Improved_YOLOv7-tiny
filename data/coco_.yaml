@@ -1,0 +1,17 @@
+# COCO 2017 dataset http://cocodataset.org
+
+         
+         # COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optiona#download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /D/brh/shuju31/images/train  # 118287 images
+val: /D/brh/shuju31/images/val  # 5000 images
+test: /D/brh/shuju31/images/val   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 1 # number of classes
+#names : ['rebar','hooping','wood_brace','steel_tube','template_wood','template_aluminum','slab','climbing_scaffold','red_brick','panel','white_brick','basket','basket_s','garbage_bag']
+
+names : ['white_brick']
